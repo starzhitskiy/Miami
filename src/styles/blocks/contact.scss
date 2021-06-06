@@ -100,7 +100,12 @@
       }
     }
   }
-
+  &__link {
+    text-decoration: none;
+    color: $col-text;
+    font-size: 16px;
+    line-height: 27px;
+  }
   &__feedback {
     display: flex;
     flex-direction: column;
